@@ -1,0 +1,309 @@
+# 测试类型: enneagram
+# 时间: 2025-02-18 00:28:42
+# 原始响应:
+[
+  {
+    "id": 1,
+    "content": "我经常追求完美",
+    "category": "1"
+  },
+  {
+    "id": 2,
+    "content": "我乐于帮助他人",
+    "category": "2"
+  },
+  {
+    "id": 3,
+    "content": "我渴望成功和成就",
+    "category": "3"
+  },
+  {
+    "id": 4,
+    "content": "我常常感到自己与众不同",
+    "category": "4"
+  },
+  {
+    "id": 5,
+    "content": "我喜欢独自思考和探索",
+    "category": "5"
+  },
+  {
+    "id": 6,
+    "content": "我常常担心未来的不确定性",
+    "category": "6"
+  },
+  {
+    "id": 7,
+    "content": "我总是寻找新的乐趣和体验",
+    "category": "7"
+  },
+  {
+    "id": 8,
+    "content": "我喜欢掌控局面",
+    "category": "8"
+  },
+  {
+    "id": 9,
+    "content": "我倾向于避免冲突",
+    "category": "9"
+  },
+  {
+    "id": 10,
+    "content": "我对自己和他人都有很高的标准",
+    "category": "1"
+  },
+  {
+    "id": 11,
+    "content": "我常常把他人的需求放在自己之前",
+    "category": "2"
+  },
+  {
+    "id": 12,
+    "content": "我善于展示自己的优点",
+    "category": "3"
+  },
+  {
+    "id": 13,
+    "content": "我常常沉浸在自我感受中",
+    "category": "4"
+  },
+  {
+    "id": 14,
+    "content": "我喜欢分析和理解复杂的问题",
+    "category": "5"
+  },
+  {
+    "id": 15,
+    "content": "我常常怀疑他人的动机",
+    "category": "6"
+  },
+  {
+    "id": 16,
+    "content": "我总是充满活力和热情",
+    "category": "7"
+  },
+  {
+    "id": 17,
+    "content": "我倾向于直接表达自己的意见",
+    "category": "8"
+  },
+  {
+    "id": 18,
+    "content": "我常常寻求内心的平静",
+    "category": "9"
+  },
+  {
+    "id": 19,
+    "content": "我常常感到自己不够好",
+    "category": "1"
+  },
+  {
+    "id": 20,
+    "content": "我乐于为他人提供支持",
+    "category": "2"
+  },
+  {
+    "id": 21,
+    "content": "我善于适应不同的环境",
+    "category": "3"
+  },
+  {
+    "id": 22,
+    "content": "我常常感到自己与他人有距离",
+    "category": "4"
+  },
+  {
+    "id": 23,
+    "content": "我喜欢独立解决问题",
+    "category": "5"
+  },
+  {
+    "id": 24,
+    "content": "我常常为未来做最坏的打算",
+    "category": "6"
+  },
+  {
+    "id": 25,
+    "content": "我总是寻找新的刺激",
+    "category": "7"
+  },
+  {
+    "id": 26,
+    "content": "我倾向于保护弱小",
+    "category": "8"
+  },
+  {
+    "id": 27,
+    "content": "我常常避免做出决定",
+    "category": "9"
+  },
+  {
+    "id": 28,
+    "content": "我常常对自己不满意",
+    "category": "1"
+  },
+  {
+    "id": 29,
+    "content": "我常常感到他人的情感",
+    "category": "2"
+  },
+  {
+    "id": 30,
+    "content": "我善于制定并实现目标",
+    "category": "3"
+  }
+]
+
+# 格式化的 JSON:
+[
+  {
+    "id": 1,
+    "content": "我经常追求完美",
+    "category": "1"
+  },
+  {
+    "id": 2,
+    "content": "我乐于帮助他人",
+    "category": "2"
+  },
+  {
+    "id": 3,
+    "content": "我渴望成功和成就",
+    "category": "3"
+  },
+  {
+    "id": 4,
+    "content": "我常常感到自己与众不同",
+    "category": "4"
+  },
+  {
+    "id": 5,
+    "content": "我喜欢独自思考和探索",
+    "category": "5"
+  },
+  {
+    "id": 6,
+    "content": "我常常担心未来的不确定性",
+    "category": "6"
+  },
+  {
+    "id": 7,
+    "content": "我总是寻找新的乐趣和体验",
+    "category": "7"
+  },
+  {
+    "id": 8,
+    "content": "我喜欢掌控局面",
+    "category": "8"
+  },
+  {
+    "id": 9,
+    "content": "我倾向于避免冲突",
+    "category": "9"
+  },
+  {
+    "id": 10,
+    "content": "我对自己和他人都有很高的标准",
+    "category": "1"
+  },
+  {
+    "id": 11,
+    "content": "我常常把他人的需求放在自己之前",
+    "category": "2"
+  },
+  {
+    "id": 12,
+    "content": "我善于展示自己的优点",
+    "category": "3"
+  },
+  {
+    "id": 13,
+    "content": "我常常沉浸在自我感受中",
+    "category": "4"
+  },
+  {
+    "id": 14,
+    "content": "我喜欢分析和理解复杂的问题",
+    "category": "5"
+  },
+  {
+    "id": 15,
+    "content": "我常常怀疑他人的动机",
+    "category": "6"
+  },
+  {
+    "id": 16,
+    "content": "我总是充满活力和热情",
+    "category": "7"
+  },
+  {
+    "id": 17,
+    "content": "我倾向于直接表达自己的意见",
+    "category": "8"
+  },
+  {
+    "id": 18,
+    "content": "我常常寻求内心的平静",
+    "category": "9"
+  },
+  {
+    "id": 19,
+    "content": "我常常感到自己不够好",
+    "category": "1"
+  },
+  {
+    "id": 20,
+    "content": "我乐于为他人提供支持",
+    "category": "2"
+  },
+  {
+    "id": 21,
+    "content": "我善于适应不同的环境",
+    "category": "3"
+  },
+  {
+    "id": 22,
+    "content": "我常常感到自己与他人有距离",
+    "category": "4"
+  },
+  {
+    "id": 23,
+    "content": "我喜欢独立解决问题",
+    "category": "5"
+  },
+  {
+    "id": 24,
+    "content": "我常常为未来做最坏的打算",
+    "category": "6"
+  },
+  {
+    "id": 25,
+    "content": "我总是寻找新的刺激",
+    "category": "7"
+  },
+  {
+    "id": 26,
+    "content": "我倾向于保护弱小",
+    "category": "8"
+  },
+  {
+    "id": 27,
+    "content": "我常常避免做出决定",
+    "category": "9"
+  },
+  {
+    "id": 28,
+    "content": "我常常对自己不满意",
+    "category": "1"
+  },
+  {
+    "id": 29,
+    "content": "我常常感到他人的情感",
+    "category": "2"
+  },
+  {
+    "id": 30,
+    "content": "我善于制定并实现目标",
+    "category": "3"
+  }
+]

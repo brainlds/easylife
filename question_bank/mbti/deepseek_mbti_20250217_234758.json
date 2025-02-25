@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "content": "在社交场合中，你更倾向于",
+    "option_a": "主动与他人交谈",
+    "option_b": "等待他人来交谈",
+    "dimension_a": "E",
+    "dimension_b": "I"
+  },
+  {
+    "id": 2,
+    "content": "你更喜欢",
+    "option_a": "计划好每一天",
+    "option_b": "随性而为",
+    "dimension_a": "J",
+    "dimension_b": "P"
+  },
+  {
+    "id": 3,
+    "content": "你更倾向于",
+    "option_a": "根据理论和概念来理解世界",
+    "option_b": "通过实际经验来理解世界",
+    "dimension_a": "N",
+    "dimension_b": "S"
+  },
+  {
+    "id": 4,
+    "content": "你通常做决策时",
+    "option_a": "根据逻辑和分析",
+    "option_b": "根据个人价值和感受",
+    "dimension_a": "T",
+    "dimension_b": "F"
+  },
+  {
+    "id": 5,
+    "content": "你觉得自己更",
+    "option_a": "充满活力并喜欢与人互动",
+    "option_b": "安静并喜欢独自待着",
+    "dimension_a": "E",
+    "dimension_b": "I"
+  },
+  {
+    "id": 6,
+    "content": "你更喜欢",
+    "option_a": "提前做好计划",
+    "option_b": "保持灵活和自由",
+    "dimension_a": "J",
+    "dimension_b": "P"
+  },
+  {
+    "id": 7,
+    "content": "你在处理问题时更倾向于",
+    "option_a": "考虑理论和长远的目标",
+    "option_b": "关注细节和实际的解决方法",
+    "dimension_a": "N",
+    "dimension_b": "S"
+  },
+  {
+    "id": 8,
+    "content": "你倾向于",
+    "option_a": "考虑情感和人际关系",
+    "option_b": "关注事实和数据",
+    "dimension_a": "F",
+    "dimension_b": "T"
+  },
+  {
+    "id": 9,
+    "content": "你更倾向于",
+    "option_a": "喜欢按照规则办事",
+    "option_b": "喜欢灵活应对和探索新方式",
+    "dimension_a": "J",
+    "dimension_b": "P"
+  },
+  {
+    "id": 10,
+    "content": "你更喜欢",
+    "option_a": "与朋友一起外出",
+    "option_b": "自己待在家里",
+    "dimension_a": "E",
+    "dimension_b": "I"
+  },
+  {
+    "id": 11,
+    "content": "在社交活动中，你更倾向于",
+    "option_a": "与大家分享你的想法和感受",
+    "option_b": "更多地倾听他人的想法和感受",
+    "dimension_a": "E",
+    "dimension_b": "I"
+  },
+  {
+    "id": 12,
+    "content": "你在工作时更喜欢",
+    "option_a": "事先规划并按计划执行",
+    "option_b": "根据情况灵活应变",
+    "dimension_a": "J",
+    "dimension_b": "P"
+  },
+  {
+    "id": 13,
+    "content": "你做决定时",
+    "option_a": "依赖逻辑和客观分析",
+    "option_b": "依赖自己的情感和他人的感受",
+    "dimension_a": "T",
+    "dimension_b": "F"
+  },
+  {
+    "id": 14,
+    "content": "你更倾向于",
+    "option_a": "关注细节和具体的任务",
+    "option_b": "关注大局和未来的可能性",
+    "dimension_a": "S",
+    "dimension_b": "N"
+  },
+  {
+    "id": 15,
+    "content": "在陌生的社交场合中，你更倾向于",
+    "option_a": "迅速与他人建立联系",
+    "option_b": "慢慢适应并观察他人",
+    "dimension_a": "E",
+    "dimension_b": "I"
+  },
+  {
+    "id": 16,
+    "content": "你更喜欢",
+    "option_a": "拥有清晰的结构和组织",
+    "option_b": "享受开放和自发的活动",
+    "dimension_a": "J",
+    "dimension_b": "P"
+  },
+  {
+    "id": 17,
+    "content": "你更倾向于",
+    "option_a": "以现实的眼光看待事情",
+    "option_b": "通过想象和理想化来看待事情",
+    "dimension_a": "S",
+    "dimension_b": "N"
+  },
+  {
+    "id": 18,
+    "content": "在沟通时，你更喜欢",
+    "option_a": "用直接、明确的方式表达",
+    "option_b": "考虑到他人的感受，温和地表达",
+    "dimension_a": "T",
+    "dimension_b": "F"
+  },
+  {
+    "id": 19,
+    "content": "你更喜欢",
+    "option_a": "提前做好所有准备",
+    "option_b": "留出空间灵活应对",
+    "dimension_a": "J",
+    "dimension_b": "P"
+  },
+  {
+    "id": 20,
+    "content": "你更倾向于",
+    "option_a": "迅速行动并解决问题",
+    "option_b": "深入分析并考虑更多选项",
+    "dimension_a": "J",
+    "dimension_b": "P"
+  },
+  {
+    "id": 21,
+    "content": "你会更愿意",
+    "option_a": "基于事实做决定",
+    "option_b": "考虑情感因素做决定",
+    "dimension_a": "T",
+    "dimension_b": "F"
+  },
+  {
+    "id": 22,
+    "content": "你更倾向于",
+    "option_a": "按照计划和规则完成任务",
+    "option_b": "灵活调整，根据变化做出反应",
+    "dimension_a": "J",
+    "dimension_b": "P"
+  },
+  {
+    "id": 23,
+    "content": "在团队工作中，你更愿意",
+    "option_a": "承担领导责任",
+    "option_b": "跟随他人的指示",
+    "dimension_a": "J",
+    "dimension_b": "P"
+  },
+  {
+    "id": 24,
+    "content": "你觉得自己更",
+    "option_a": "理性并注重事实",
+    "option_b": "感性并注重他人的情感",
+    "dimension_a": "T",
+    "dimension_b": "F"
+  },
+  {
+    "id": 25,
+    "content": "你会",
+    "option_a": "倾向于首先考虑实际的需求和后果",
+    "option_b": "更喜欢考虑长远的目标和可能性",
+    "dimension_a": "S",
+    "dimension_b": "N"
+  },
+  {
+    "id": 26,
+    "content": "你喜欢",
+    "option_a": "事先安排好每个细节",
+    "option_b": "随意应变，不太注重细节",
+    "dimension_a": "J",
+    "dimension_b": "P"
+  },
+  {
+    "id": 27,
+    "content": "你更喜欢",
+    "option_a": "关注当前的现实和可见的事实",
+    "option_b": "探索新的可能性和理论",
+    "dimension_a": "S",
+    "dimension_b": "N"
+  },
+  {
+    "id": 28,
+    "content": "在面对困难时，你更倾向于",
+    "option_a": "依靠自己的直觉和内心感受",
+    "option_b": "依赖他人的建议和具体的解决方法",
+    "dimension_a": "N",
+    "dimension_b": "S"
+  },
+  {
+    "id": 29,
+    "content": "你更倾向于",
+    "option_a": "通过与他人沟通来获取信息",
+    "option_b": "通过独立思考和分析来获取信息",
+    "dimension_a": "E",
+    "dimension_b": "I"
+  },
+  {
+    "id": 30,
+    "content": "你更倾向于",
+    "option_a": "直接行动并按计划进行",
+    "option_b": "考虑所有的选择并慢慢决定",
+    "dimension_a": "J",
+    "dimension_b": "P"
+  }
+]
