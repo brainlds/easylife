@@ -12,5 +12,5 @@ __pycache__/
 *.log
 # 忽略环境变量文件
 .env
-
+# 忽略 cursor 配置文件
 .cursorrules

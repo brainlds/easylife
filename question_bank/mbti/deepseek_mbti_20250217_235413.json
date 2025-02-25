@@ -1,0 +1,489 @@
+# 测试类型: mbti
+# 时间: 2025-02-17 23:54:13
+# 原始响应:
+[
+  {
+    "id": 1,
+    "content": "在社交场合中，你更倾向于",
+    "option_a": "主动与他人交谈",
+    "option_b": "等待他人来交谈",
+    "dimension_a": "E",
+    "dimension_b": "I"
+  },
+  {
+    "id": 2,
+    "content": "你更喜欢",
+    "option_a": "计划和组织活动",
+    "option_b": "灵活应对变化",
+    "dimension_a": "J",
+    "dimension_b": "P"
+  },
+  {
+    "id": 3,
+    "content": "在做决定时，你更依赖",
+    "option_a": "逻辑和分析",
+    "option_b": "个人价值观和感受",
+    "dimension_a": "T",
+    "dimension_b": "F"
+  },
+  {
+    "id": 4,
+    "content": "你更倾向于",
+    "option_a": "关注现实和具体细节",
+    "option_b": "关注未来和可能性",
+    "dimension_a": "S",
+    "dimension_b": "N"
+  },
+  {
+    "id": 5,
+    "content": "你更喜欢",
+    "option_a": "独处和安静的环境",
+    "option_b": "热闹和充满活力的环境",
+    "dimension_a": "I",
+    "dimension_b": "E"
+  },
+  {
+    "id": 6,
+    "content": "你更倾向于",
+    "option_a": "按计划行事",
+    "option_b": "随性而为",
+    "dimension_a": "J",
+    "dimension_b": "P"
+  },
+  {
+    "id": 7,
+    "content": "你更倾向于",
+    "option_a": "理性思考",
+    "option_b": "感性思考",
+    "dimension_a": "T",
+    "dimension_b": "F"
+  },
+  {
+    "id": 8,
+    "content": "你更倾向于",
+    "option_a": "关注细节",
+    "option_b": "关注整体",
+    "dimension_a": "S",
+    "dimension_b": "N"
+  },
+  {
+    "id": 9,
+    "content": "你更喜欢",
+    "option_a": "与人交往",
+    "option_b": "独处",
+    "dimension_a": "E",
+    "dimension_b": "I"
+  },
+  {
+    "id": 10,
+    "content": "你更倾向于",
+    "option_a": "按部就班",
+    "option_b": "灵活应变",
+    "dimension_a": "J",
+    "dimension_b": "P"
+  },
+  {
+    "id": 11,
+    "content": "你更倾向于",
+    "option_a": "逻辑推理",
+    "option_b": "情感共鸣",
+    "dimension_a": "T",
+    "dimension_b": "F"
+  },
+  {
+    "id": 12,
+    "content": "你更倾向于",
+    "option_a": "关注现实",
+    "option_b": "关注未来",
+    "dimension_a": "S",
+    "dimension_b": "N"
+  },
+  {
+    "id": 13,
+    "content": "你更喜欢",
+    "option_a": "与人合作",
+    "option_b": "独立工作",
+    "dimension_a": "E",
+    "dimension_b": "I"
+  },
+  {
+    "id": 14,
+    "content": "你更倾向于",
+    "option_a": "有计划地生活",
+    "option_b": "随性地生活",
+    "dimension_a": "J",
+    "dimension_b": "P"
+  },
+  {
+    "id": 15,
+    "content": "你更倾向于",
+    "option_a": "理性分析",
+    "option_b": "感性体验",
+    "dimension_a": "T",
+    "dimension_b": "F"
+  },
+  {
+    "id": 16,
+    "content": "你更倾向于",
+    "option_a": "关注细节",
+    "option_b": "关注整体",
+    "dimension_a": "S",
+    "dimension_b": "N"
+  },
+  {
+    "id": 17,
+    "content": "你更喜欢",
+    "option_a": "与人交往",
+    "option_b": "独处",
+    "dimension_a": "E",
+    "dimension_b": "I"
+  },
+  {
+    "id": 18,
+    "content": "你更倾向于",
+    "option_a": "按计划行事",
+    "option_b": "随性而为",
+    "dimension_a": "J",
+    "dimension_b": "P"
+  },
+  {
+    "id": 19,
+    "content": "你更倾向于",
+    "option_a": "逻辑思考",
+    "option_b": "情感思考",
+    "dimension_a": "T",
+    "dimension_b": "F"
+  },
+  {
+    "id": 20,
+    "content": "你更倾向于",
+    "option_a": "关注现实",
+    "option_b": "关注未来",
+    "dimension_a": "S",
+    "dimension_b": "N"
+  },
+  {
+    "id": 21,
+    "content": "你更喜欢",
+    "option_a": "与人合作",
+    "option_b": "独立工作",
+    "dimension_a": "E",
+    "dimension_b": "I"
+  },
+  {
+    "id": 22,
+    "content": "你更倾向于",
+    "option_a": "有计划地生活",
+    "option_b": "随性地生活",
+    "dimension_a": "J",
+    "dimension_b": "P"
+  },
+  {
+    "id": 23,
+    "content": "你更倾向于",
+    "option_a": "理性分析",
+    "option_b": "感性体验",
+    "dimension_a": "T",
+    "dimension_b": "F"
+  },
+  {
+    "id": 24,
+    "content": "你更倾向于",
+    "option_a": "关注细节",
+    "option_b": "关注整体",
+    "dimension_a": "S",
+    "dimension_b": "N"
+  },
+  {
+    "id": 25,
+    "content": "你更喜欢",
+    "option_a": "与人交往",
+    "option_b": "独处",
+    "dimension_a": "E",
+    "dimension_b": "I"
+  },
+  {
+    "id": 26,
+    "content": "你更倾向于",
+    "option_a": "按计划行事",
+    "option_b": "随性而为",
+    "dimension_a": "J",
+    "dimension_b": "P"
+  },
+  {
+    "id": 27,
+    "content": "你更倾向于",
+    "option_a": "逻辑思考",
+    "option_b": "情感思考",
+    "dimension_a": "T",
+    "dimension_b": "F"
+  },
+  {
+    "id": 28,
+    "content": "你更倾向于",
+    "option_a": "关注现实",
+    "option_b": "关注未来",
+    "dimension_a": "S",
+    "dimension_b": "N"
+  },
+  {
+    "id": 29,
+    "content": "你更喜欢",
+    "option_a": "与人合作",
+    "option_b": "独立工作",
+    "dimension_a": "E",
+    "dimension_b": "I"
+  },
+  {
+    "id": 30,
+    "content": "你更倾向于",
+    "option_a": "有计划地生活",
+    "option_b": "随性地生活",
+    "dimension_a": "J",
+    "dimension_b": "P"
+  }
+]
+
+# 格式化的 JSON:
+[
+  {
+    "id": 1,
+    "content": "在社交场合中，你更倾向于",
+    "option_a": "主动与他人交谈",
+    "option_b": "等待他人来交谈",
+    "dimension_a": "E",
+    "dimension_b": "I"
+  },
+  {
+    "id": 2,
+    "content": "你更喜欢",
+    "option_a": "计划和组织活动",
+    "option_b": "灵活应对变化",
+    "dimension_a": "J",
+    "dimension_b": "P"
+  },
+  {
+    "id": 3,
+    "content": "在做决定时，你更依赖",
+    "option_a": "逻辑和分析",
+    "option_b": "个人价值观和感受",
+    "dimension_a": "T",
+    "dimension_b": "F"
+  },
+  {
+    "id": 4,
+    "content": "你更倾向于",
+    "option_a": "关注现实和具体细节",
+    "option_b": "关注未来和可能性",
+    "dimension_a": "S",
+    "dimension_b": "N"
+  },
+  {
+    "id": 5,
+    "content": "你更喜欢",
+    "option_a": "独处和安静的环境",
+    "option_b": "热闹和充满活力的环境",
+    "dimension_a": "I",
+    "dimension_b": "E"
+  },
+  {
+    "id": 6,
+    "content": "你更倾向于",
+    "option_a": "按计划行事",
+    "option_b": "随性而为",
+    "dimension_a": "J",
+    "dimension_b": "P"
+  },
+  {
+    "id": 7,
+    "content": "你更倾向于",
+    "option_a": "理性思考",
+    "option_b": "感性思考",
+    "dimension_a": "T",
+    "dimension_b": "F"
+  },
+  {
+    "id": 8,
+    "content": "你更倾向于",
+    "option_a": "关注细节",
+    "option_b": "关注整体",
+    "dimension_a": "S",
+    "dimension_b": "N"
+  },
+  {
+    "id": 9,
+    "content": "你更喜欢",
+    "option_a": "与人交往",
+    "option_b": "独处",
+    "dimension_a": "E",
+    "dimension_b": "I"
+  },
+  {
+    "id": 10,
+    "content": "你更倾向于",
+    "option_a": "按部就班",
+    "option_b": "灵活应变",
+    "dimension_a": "J",
+    "dimension_b": "P"
+  },
+  {
+    "id": 11,
+    "content": "你更倾向于",
+    "option_a": "逻辑推理",
+    "option_b": "情感共鸣",
+    "dimension_a": "T",
+    "dimension_b": "F"
+  },
+  {
+    "id": 12,
+    "content": "你更倾向于",
+    "option_a": "关注现实",
+    "option_b": "关注未来",
+    "dimension_a": "S",
+    "dimension_b": "N"
+  },
+  {
+    "id": 13,
+    "content": "你更喜欢",
+    "option_a": "与人合作",
+    "option_b": "独立工作",
+    "dimension_a": "E",
+    "dimension_b": "I"
+  },
+  {
+    "id": 14,
+    "content": "你更倾向于",
+    "option_a": "有计划地生活",
+    "option_b": "随性地生活",
+    "dimension_a": "J",
+    "dimension_b": "P"
+  },
+  {
+    "id": 15,
+    "content": "你更倾向于",
+    "option_a": "理性分析",
+    "option_b": "感性体验",
+    "dimension_a": "T",
+    "dimension_b": "F"
+  },
+  {
+    "id": 16,
+    "content": "你更倾向于",
+    "option_a": "关注细节",
+    "option_b": "关注整体",
+    "dimension_a": "S",
+    "dimension_b": "N"
+  },
+  {
+    "id": 17,
+    "content": "你更喜欢",
+    "option_a": "与人交往",
+    "option_b": "独处",
+    "dimension_a": "E",
+    "dimension_b": "I"
+  },
+  {
+    "id": 18,
+    "content": "你更倾向于",
+    "option_a": "按计划行事",
+    "option_b": "随性而为",
+    "dimension_a": "J",
+    "dimension_b": "P"
+  },
+  {
+    "id": 19,
+    "content": "你更倾向于",
+    "option_a": "逻辑思考",
+    "option_b": "情感思考",
+    "dimension_a": "T",
+    "dimension_b": "F"
+  },
+  {
+    "id": 20,
+    "content": "你更倾向于",
+    "option_a": "关注现实",
+    "option_b": "关注未来",
+    "dimension_a": "S",
+    "dimension_b": "N"
+  },
+  {
+    "id": 21,
+    "content": "你更喜欢",
+    "option_a": "与人合作",
+    "option_b": "独立工作",
+    "dimension_a": "E",
+    "dimension_b": "I"
+  },
+  {
+    "id": 22,
+    "content": "你更倾向于",
+    "option_a": "有计划地生活",
+    "option_b": "随性地生活",
+    "dimension_a": "J",
+    "dimension_b": "P"
+  },
+  {
+    "id": 23,
+    "content": "你更倾向于",
+    "option_a": "理性分析",
+    "option_b": "感性体验",
+    "dimension_a": "T",
+    "dimension_b": "F"
+  },
+  {
+    "id": 24,
+    "content": "你更倾向于",
+    "option_a": "关注细节",
+    "option_b": "关注整体",
+    "dimension_a": "S",
+    "dimension_b": "N"
+  },
+  {
+    "id": 25,
+    "content": "你更喜欢",
+    "option_a": "与人交往",
+    "option_b": "独处",
+    "dimension_a": "E",
+    "dimension_b": "I"
+  },
+  {
+    "id": 26,
+    "content": "你更倾向于",
+    "option_a": "按计划行事",
+    "option_b": "随性而为",
+    "dimension_a": "J",
+    "dimension_b": "P"
+  },
+  {
+    "id": 27,
+    "content": "你更倾向于",
+    "option_a": "逻辑思考",
+    "option_b": "情感思考",
+    "dimension_a": "T",
+    "dimension_b": "F"
+  },
+  {
+    "id": 28,
+    "content": "你更倾向于",
+    "option_a": "关注现实",
+    "option_b": "关注未来",
+    "dimension_a": "S",
+    "dimension_b": "N"
+  },
+  {
+    "id": 29,
+    "content": "你更喜欢",
+    "option_a": "与人合作",
+    "option_b": "独立工作",
+    "dimension_a": "E",
+    "dimension_b": "I"
+  },
+  {
+    "id": 30,
+    "content": "你更倾向于",
+    "option_a": "有计划地生活",
+    "option_b": "随性地生活",
+    "dimension_a": "J",
+    "dimension_b": "P"
+  }
+]
