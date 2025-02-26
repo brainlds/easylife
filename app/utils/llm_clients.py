@@ -184,20 +184,33 @@ class DashScopeClient(BaseLLMClient):
         return full_response
 
 def create_llm_client(provider="deepseek"):
-    """
-    LLM客户端工厂函数
-    
-    @param provider: 模型提供商，可选值：openai, deepseek, dashscope
-    @return: LLM客户端实例
-    """
-    clients = {
-        "openai": DeepSeekClient,
-        "deepseek": DeepSeekClient,
-        "dashscope": DashScopeClient
-    }
-    
-    client_class = clients.get(provider.lower())
-    if not client_class:
-        raise ValueError(f"不支持的模型提供商: {provider}")
+    """LLM客户端工厂函数"""
+    try:
+        # 打印环境变量检查
+        logger.info("检查环境变量:")
+        logger.info(f"DEEPSEEK_API_KEY: {'已设置' if os.getenv('DEEPSEEK_API_KEY') else '未设置'}")
+        logger.info(f"DASHSCOPE_API_KEY: {'已设置' if os.getenv('DASHSCOPE_API_KEY') else '未设置'}")
+        logger.info(f"OPENAI_API_KEY: {'已设置' if os.getenv('OPENAI_API_KEY') else '未设置'}")
         
-    return client_class() 
+        # 打印选择的提供商
+        logger.info(f"选择的模型提供商: {provider}")
+        
+        clients = {
+            "openai": DeepSeekClient,
+            "deepseek": DeepSeekClient,
+            "dashscope": DashScopeClient
+        }
+        
+        client_class = clients.get(provider.lower())
+        if not client_class:
+            logger.error(f"不支持的模型提供商: {provider}")
+            raise ValueError(f"不支持的模型提供商: {provider}")
+            
+        client = client_class()
+        logger.info(f"成功创建客户端: {client.__class__.__name__}")
+        return client
+        
+    except Exception as e:
+        logger.error(f"创建LLM客户端失败: {str(e)}")
+        logger.error("详细错误信息:", exc_info=True)
+        raise 
