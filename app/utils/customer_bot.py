@@ -1,9 +1,10 @@
 from langchain.prompts import ChatPromptTemplate
 from langchain_core.memory import BaseMemory
 from langchain_core.messages import HumanMessage, AIMessage
-from langchain_openai import ChatOpenAI, OpenAIEmbeddings
+from langchain_openai import ChatOpenAI
 from langchain_community.document_loaders import TextLoader
 from langchain_community.vectorstores import FAISS
+from langchain_community.embeddings import DashScopeEmbeddings
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains.retrieval import create_retrieval_chain
 from langchain_core.runnables import RunnablePassthrough
@@ -45,8 +46,10 @@ class CustomerSupportBot:
         """初始化客服机器人"""
         # 初始化聊天模型
         self.chat_model = ChatOpenAI(
-            model="gpt-3.5-turbo",
-            temperature=0.7
+            model="qwen-turbo",
+            temperature=0.7,
+            base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
+            openai_api_key=os.getenv("DASHSCOPE_API_KEY")
         )
         
         # 初始化自定义对话记忆
@@ -90,7 +93,10 @@ class CustomerSupportBot:
             documents = loader.load()
             
             # 创建向量存储
-            embeddings = OpenAIEmbeddings()
+            embeddings = DashScopeEmbeddings(
+                model="text-embedding-v2",  # 使用最新的v2模型
+                dashscope_api_key=os.getenv("DASHSCOPE_API_KEY")  # 使用 dashscope_api_key 而不是 api_key
+            )
             self.vectorstore = FAISS.from_documents(documents, embeddings)
             
             # 创建新的问答链
@@ -106,6 +112,7 @@ class CustomerSupportBot:
             
         except Exception as e:
             logger.error(f"初始化知识库失败: {str(e)}")
+            logger.error("详细错误信息: ", exc_info=True)
             raise
             
     def handle_query(self, user_input: str) -> str:

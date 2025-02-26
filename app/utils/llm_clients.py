@@ -23,25 +23,25 @@ class BaseLLMClient(ABC):
         """获取模型回复"""
         pass
 
-class OpenAIClient(BaseLLMClient):
-    """OpenAI API客户端"""
+# class OpenAIClient(BaseLLMClient):
+#     """OpenAI API客户端"""
     
-    def __init__(self):
-        self.client = OpenAI(
-            api_key=os.getenv("OPENAI_API_KEY"),
-            base_url="https://api.openai.com/v1"
-        )
+#     def __init__(self):
+#         self.client = OpenAI(
+#             api_key=os.getenv("OPENAI_API_KEY"),
+#             base_url="https://api.openai.com/v1"
+#         )
         
-    def get_completion(self, messages):
-        response = self.client.chat.completions.create(
-            model="gpt-3.5-turbo",
-            messages=messages,
-            temperature=0.7,
-            max_tokens=1000
-        )
-        # 打印响应
-        logger.info(f"\nOpenAI响应:\n{response.choices[0].message.content}\n")
-        return response.choices[0].message.content
+#     def get_completion(self, messages):
+#         response = self.client.chat.completions.create(
+#             model="gpt-3.5-turbo",
+#             messages=messages,
+#             temperature=0.7,
+#             max_tokens=1000
+#         )
+#         # 打印响应
+#         logger.info(f"\nOpenAI响应:\n{response.choices[0].message.content}\n")
+#         return response.choices[0].message.content
 
 class DeepSeekClient(BaseChatModel, BaseModel):
     """DeepSeek API 客户端"""
@@ -183,7 +183,7 @@ class DashScopeClient(BaseLLMClient):
         logger.info(f"\nDashScope响应:\n{full_response}\n")
         return full_response
 
-def create_llm_client(provider="openai"):
+def create_llm_client(provider="deepseek"):
     """
     LLM客户端工厂函数
     
@@ -191,7 +191,7 @@ def create_llm_client(provider="openai"):
     @return: LLM客户端实例
     """
     clients = {
-        "openai": OpenAIClient,
+        "openai": DeepSeekClient,
         "deepseek": DeepSeekClient,
         "dashscope": DashScopeClient
     }

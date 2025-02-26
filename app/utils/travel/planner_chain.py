@@ -308,10 +308,10 @@ class TravelPlannerChain:
                                         for day in plan_data.get("daily_plans", [])
                                     )
                     
-                    return plan_data
+                                    return plan_data
                                 except json.JSONDecodeError:
                                     continue
-                
+
                     logger.error(f"无法解析的输出: {output}")
                     raise ValueError("无法解析为有效的JSON格式")
             
