@@ -4,12 +4,7 @@ from pydantic import BaseModel, Field
 from app.utils.llm_clients import create_llm_client  # 导入 llm_clients
 from typing import List, Dict
 import logging
-from app.utils.weather_service import WeatherService  # 添加导入
-from datetime import datetime
 from langchain.agents import create_openai_functions_agent
-from langchain.agents.agent_types import AgentType
-from langchain.agents.format_scratchpad import format_to_openai_function_messages
-from langchain.agents.output_parsers import OpenAIFunctionsAgentOutputParser
 from langchain.agents import AgentExecutor
 from app.utils.tools.weather_tool import WeatherTool
 from app.utils.tools.train_tool import TrainTool

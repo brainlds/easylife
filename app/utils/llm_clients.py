@@ -190,13 +190,13 @@ def create_llm_client(provider="deepseek"):
         logger.info("检查环境变量:")
         logger.info(f"DEEPSEEK_API_KEY: {'已设置' if os.getenv('DEEPSEEK_API_KEY') else '未设置'}")
         logger.info(f"DASHSCOPE_API_KEY: {'已设置' if os.getenv('DASHSCOPE_API_KEY') else '未设置'}")
-        logger.info(f"OPENAI_API_KEY: {'已设置' if os.getenv('OPENAI_API_KEY') else '未设置'}")
+        # logger.info(f"OPENAI_API_KEY: {'已设置' if os.getenv('OPENAI_API_KEY') else '未设置'}")
         
         # 打印选择的提供商
         logger.info(f"选择的模型提供商: {provider}")
         
         clients = {
-            "openai": DeepSeekClient,
+            # "openai": DeepSeekClient,
             "deepseek": DeepSeekClient,
             "dashscope": DashScopeClient
         }
