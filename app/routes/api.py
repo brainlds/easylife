@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 api_bp = Blueprint('api', __name__)  # 更新蓝图名称
 
 # 初始化大模型客户端
-client = Ark(api_key=os.getenv('ARK_API_KEY'),base_url="https://ark.cn-beijing.volces.com/api/v3",)
+client = Ark(api_key=os.getenv('ARK_API_KEY'),base_url="https://ark.cn-beijing.volces.com/api/v3")
 
 
 

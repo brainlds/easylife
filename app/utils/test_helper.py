@@ -6,7 +6,7 @@ import json
 from datetime import datetime
 import os
 import hashlib
-
+from app.routes.config import SCRIPT_DIR_QUESTION_BANK
 logger = logging.getLogger(__name__)
 
 TEST_PROMPTS = {
@@ -137,7 +137,9 @@ def get_test_from_bank(test_type: str):
     @return: 最新的测试题目
     """
     # 获取题库目录
-    question_bank_dir = os.path.join("question_bank", test_type)
+    question_bank_dir = os.path.join(SCRIPT_DIR_QUESTION_BANK, test_type)
+    print(question_bank_dir)
+    logger.info(question_bank_dir)
     if not os.path.exists(question_bank_dir):
         raise ValueError(f"题库 {test_type} 不存在")
     
